@@ -1,0 +1,314 @@
+/*Author: Mutai
+color codes: #0f6d41 - Green, #73645c - brown #C68E17 - Wood #dae3dc - white Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Raleway:wght@500&display=swap');
+
+body,
+.carousel,
+.donate,
+.causes,
+.join {
+    top: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+}
+
+main {
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* header {
+    height: 100vh;
+} */
+
+nav {
+    font-family: 'Nunito', sans-serif;
+    padding-left: 10%;
+    width: 100%;
+    height: 10%;
+}
+
+.navbar {
+    background-color: #fff !important;
+}
+
+.navbar-scrolled {
+    background-color: #fff !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+nav a {
+    font-weight: bolder;
+    color: #000;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-item {
+    margin-left: 8%;
+    padding: 5px;
+}
+
+main {
+    font-size: 1em;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.project {
+    margin: 100px;
+}
+
+.hero {
+    background-image: url("../img/about.webp");
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* set the color and opacity of the overlay */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    /* set a higher z-index value than the pseudo-element */
+    text-align: center;
+    color: white;
+}
+
+.hero-content h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+.top-section {
+    background-color: #0f6d41;
+}
+
+
+.about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+    align-items: center;
+}
+
+.team {
+    margin-bottom: 20%;
+}
+
+.team img {
+    max-width: 100%;
+    max-height: 550px;
+    border-radius: 50%;
+}
+
+
+footer {
+    position: static;
+    background-color: #0f6d41;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+.call-to-action {
+    background-image: url("../img/launch/8.webp");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* set the color and opacity of the overlay */
+}
+
+.call-to-content {
+    position: relative;
+    z-index: 1;
+    /* set a higher z-index value than the pseudo-element */
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.call-to-content h3 {
+    margin-top: 2%;
+    font-size: 3rem;
+}
+
+.call-to-content p {
+    font-size: 1.5rem;
+}
+
+.call-to-action button {
+    background-color: #C68E17;
+    border-radius: 30px;
+}
+
+.call-to-action button a {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    font-family: 'Raleway', sans-serif;
+    color: #0f6d41;
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero-contact {
+    background-image: url("../img/action.webp");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f6d41;
+
+}
+
+.contact-details a,
+p {
+    color: #000;
+    text-decoration: none;
+}
+
+.hero-donate {
+    background-image: url("../img/donate-page.webp");
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+
+}
+
+.donate-container h3 {
+    padding: 4%;
+}
+
+.equal {
+    height: 10%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.team img {
+    height: auto;
+    max-width: 100%;
+}
+
+.gallery {
+    height: 300px;
+    /* Set your desired height */
+    object-fit: cover;
+}
+
+.gallerybutton {
+    background-color: #0f6d41;
+    padding: 10px;
+}
+
+.gallerybutton a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-weight: bolder;
+        color: #000;
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    card {
+        background-color: white;
+        color: #000;
+    }
+
+    .maps {
+        width: "200";
+        height: "100";
+    }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Zero Barefoot Campaign is a non-profit and non-political organization in Kenya, with a goal of achieving Zero barefoot in all primary schools by 2030. Join us in our mission to provide shoes to underprivileged children in Kenya.">
+    <meta name="keywords"
+        content="Zero Barefoot Campaign, Zero Barefoot, Environment,non-profit organization, non-political organization, Kenya, primary schools, underprivileged children, shoes, 2030">
+    <meta name="focus"
+        content="Achieving Zero Barefoot in all Primary Schools in Kenya by 2030,Zero Barefoot, Environment.">
+    <meta name="target audience" content="Underprivileged Children in Kenya">
+    <meta name="approach" content="Providing Shoes for Children in Need">
+    <meta name="author" content="Victoria Mutai for Zero Barefoot Campaign and Environment">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Zero Barefoot Campaign and Environment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+    <style>
+        /* Style the input fields */
+        input[type=text],
+        input[type=email],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        /* Style the submit button */
+        input[type=submit] {
+            background-color: #C68E17;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Style the submit button on hover */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the contact information */
+        .contact-info {
+            margin: auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-fixed-top sticky-top" style="background-color: #0f6d41;">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-3" href="index.html"><img src="img/logo.jpg"
+                    alt="Zero Barefoot Campaign and Environment" height="50" width="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" style="color: #000;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html" style="color: #000;">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="donate.html"
+                            style="color: #000; background-color: #C68E17; border-radius: 10px;">DONATE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html" style="color: #000;">GALLERY</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link active" href="#" style="color: #000;">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-contact">
+    </div>
+    <main>
+        <div class="container">
+            <div class="contact-information">
+                <div class="row">
+                    <div class="col-md-6" style="padding: 8%;">
+                        <div class="form-container">
+                            <h2 class="h3"><b>DROP US A MESSAGE</b></h2>
+                            <br>
+                            <form action="/submit-form" method="POST">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Write something.."
+                                    required></textarea>
+
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="padding: 8%;">
+                        <div class="contact-details">
+                            <h2 class="h3"><b>CALL US ON</b></h2>
+                            <br>
+                            <p>P.O Box 33548-00300,</p>
+                            <p>Eldoret,</p>
+                            <p>Kenya.</p>
+                            <p><i class="fa-solid fa-phone" style="font-size: 1.1em;color: #0f6d41;"> </i> <a
+                                    href="tel:+254710798436">+254710798436</a></p>
+                            <p><i class="fa-solid fa-envelope" style="font-size: 1.1em; color: #0f6d41;"></i> <a
+                                    href="mailto:info@zerobarefootcampaign.org">
+                                    info@zerobarefootcampaign.org</a></p>
+                            <p>Visit us at: <b>1st Floor 1A ,Simba Energy Building Annex, Along Eldoret -Nakuru
+                                    highway, Eldoret.</b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;
+            <script>document.write(new Date().getUTCFullYear());</script> Zero Barefoot Campaign
+        </p>
+    </footer>
+</body>
+
+</html>
