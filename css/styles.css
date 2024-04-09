@@ -312,3 +312,22 @@ p {
         height: "100";
     }
 }
+
+
+#Martha{
+    display: flex;
+    justify-content: center;
+}
+
+#Paul{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#martha{
+    object-fit: cover;
+}
+
+.title2{
+    color: white;
+}
